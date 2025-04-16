@@ -8,8 +8,6 @@
 
 - 🔒 Role-based access (Admin and User)
 - 📅 Book, cancel, or modify hall reservations
-- 🕒 Conflict detection to avoid double bookings
-- 🏛️ Manage multiple halls with capacity and equipment details
 - 📈 View current and upcoming reservations
 - 📂 Data persistence using file storage (or extendable to DB)
 
