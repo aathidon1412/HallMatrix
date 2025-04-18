@@ -1,28 +1,66 @@
 # HallMatrix - Smart Hall Reservation System
 
-**HallMatrix** is a console-based Java application designed to simplify and optimize the process of managing hall reservations in educational institutions or corporate environments. This system helps users avoid scheduling conflicts, manage hall availability, and improve resource utilization through a simple and intuitive interface.
+## 📋 Project Description
+**HallMatrix** is a Java console-based Smart Hall Reservation System designed to help universities efficiently manage the booking of classrooms and labs.  
+The system leverages core Java concepts like Object-Oriented Programming (OOP), Multi-threading, Exception Handling, and File I/O operations.
+
+It offers different menu-driven interactions based on user roles — Admin, Faculty, and Student.
 
 ---
 
-## 🚀 Features
+## 🚀 Getting Started
 
-- 🔒 Role-based access (Admin and User)
-- 📅 Book, cancel, or modify hall reservations
-- 📈 View current and upcoming reservations
-- 📂 Data persistence using file storage (or extendable to DB)
+### Prerequisites:
+- Java SE 8 or higher
+- A text file named `faculty_credentials.txt` (for Faculty login and registration)
+
+### Steps to Run:
+1. Clone or download the project files.
+2. Open the project in an IDE (like VS Code, IntelliJ) or terminal.
+3. Compile the code:
+   ```bash
+   javac *.java
+  
+4. Run the program:
+   ```bash
+   java HallMatrix
+   ```
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Features
 
-- **Language:** Java (Console-based)
-- **Tools:** Java I/O, Collections Framework, OOP Principles
-- **IDE Recommended:** Visual Studio Code, IntelliJ IDEA, or Eclipse
+- **Admin**:
+  - View all reservations
+  - Approve or reject pending reservations
+- **Faculty**:
+  - Register/Login
+  - Book halls
+  - View all reservations
+- **Student**:
+  - View existing reservations (read-only)
+- **Common Features**:
+  - Loading bar animation using multi-threading
+  - File handling for Faculty credentials
+  - User-friendly console menus
 
 ---
 
-## 🧩 Future Enhancements
-- Database integration (MySQL/PostgreSQL)
-- Graphical User Interface (JavaFX/Swing)
-- Email notification for reservations
-- Login authentication system
+## 👥 User Roles
+
+| User Type    | Permissions                                    |
+|:-------------|:----------------------------------------------|
+| Admin        | Full access (view, approve, reject)           |
+| Faculty      | Book halls and view reservations              |
+| Student      | View reservations (read-only)                 |
+
+---
+
+## 🛠 Technologies Used
+
+- **Programming Language**: Java
+- **Concepts**:
+  - Object-Oriented Programming (OOP)
+  - Multi-threading
+  - Exception Handling
+  - File I/O (Faculty credentials management)
