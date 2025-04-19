@@ -1,66 +1,32 @@
 # HallMatrix - Smart Hall Reservation System
 
-## 📋 Project Description
-**HallMatrix** is a Java console-based Smart Hall Reservation System designed to help universities efficiently manage the booking of classrooms and labs.  
-The system leverages core Java concepts like Object-Oriented Programming (OOP), Multi-threading, Exception Handling, and File I/O operations.
+This is a simple Java console application for managing hall reservations in a college environment. It allows faculties to book halls, view available halls, cancel bookings, and get notifications. The application preloads department, floor, and room details, and enforces constraints for booking validation.
 
-It offers different menu-driven interactions based on user roles — Admin, Faculty, and Student.
+This code is a good starting point for anyone who wants to learn Java programming or develop a simple resource management system. Feel free to use and modify the code according to your needs.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### Prerequisites:
-- Java SE 8 or higher
-- A text file named `faculty_credentials.txt` (for Faculty login and registration)
+To run this program, you'll need Java installed on your computer. Clone this repository and navigate to the directory containing the "HallMatrix.java" file. Then, compile and run the program using the following commands in your terminal:
 
-### Steps to Run:
-1. Clone or download the project files.
-2. Open the project in an IDE (like VS Code, IntelliJ) or terminal.
-3. Compile the code:
-   ```bash
-   javac *.java
-  
-4. Run the program:
-   ```bash
-   java HallMatrix
-   ```
+```bash
+javac HallMatrix.java
+java HallMatrix
+```
 
 ---
 
-## 🎯 Features
+## Usage
 
-- **Admin**:
-  - View all reservations
-  - Approve or reject pending reservations
-- **Faculty**:
-  - Register/Login
-  - Book halls
-  - View all reservations
-- **Student**:
-  - View existing reservations (read-only)
-- **Common Features**:
-  - Loading bar animation using multi-threading
-  - File handling for Faculty credentials
-  - User-friendly console menus
+When you run the program, a menu will be displayed with several options. Enter the number corresponding to the action you want to perform:
+
+- **Faculty Login:** Enter your faculty credentials to log into the system.
+- **Book Hall:** If you're logged in, you can book a hall by selecting department, floor, and room number, following predefined constraints.
+- **Cancel Booking:** If you're logged in, you can cancel an existing booking by providing booking details.
+- **View Available Halls:** Display all available halls across departments.
+- **Notification:** Receive notifications about successful or failed bookings.
+- **Sign out:** Log out of the system.
+- **Exit:** Exit the program.
 
 ---
-
-## 👥 User Roles
-
-| User Type    | Permissions                                    |
-|:-------------|:----------------------------------------------|
-| Admin        | Full access (view, approve, reject)           |
-| Faculty      | Book halls and view reservations              |
-| Student      | View reservations (read-only)                 |
-
----
-
-## 🛠 Technologies Used
-
-- **Programming Language**: Java
-- **Concepts**:
-  - Object-Oriented Programming (OOP)
-  - Multi-threading
-  - Exception Handling
-  - File I/O (Faculty credentials management)
