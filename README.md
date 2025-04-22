@@ -11,7 +11,7 @@ This code is a good starting point for anyone who wants to learn Java programmin
 To run this program, you'll need Java installed on your computer. Clone this repository and navigate to the directory containing the "HallMatrix.java" file. Then, compile and run the program using the following commands in your terminal:
 
 ```bash
-javac HallMatrix.java
+javac *.java
 java HallMatrix
 ```
 
